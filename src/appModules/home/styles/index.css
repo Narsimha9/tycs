@@ -1,0 +1,49 @@
+.features-maindiv {
+    background-color: rgba(0, 0, 0, 0.08);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-maindiv {
+    background-color: ghostwhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.features-content {
+    font-size: 18px;
+    color: darkslategray;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.aboutus-content {
+    font-size: 18px;
+    color: dimgray;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}

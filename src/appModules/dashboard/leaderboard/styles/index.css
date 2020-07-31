@@ -1,0 +1,71 @@
+.searchbar-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: .2%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2%;
+}
+
+.welcome-title {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.practice-searchbar {
+  border-radius: 4px !important;
+}
+
+.practice-card-div {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  overflow: auto !important;
+  width: 100% !important;
+}
+
+.leaderboard-table-titles {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.leaderboard-table-titles-data {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  line-height: 3;
+  width: unset !important;
+}
+
+.leaderboard-table-titles-font {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: unset !important;
+}
+
+.practice-searchbar-textfield {
+  padding: 7% !important;
+}
+
+.practicebar-card-text-div {
+  width: unset !important;
+}
+@media only screen and (max-width: 600px) {
+  .practice-searchbar-textfield {
+    padding: 18px !important;
+  }
+
+  .practicebar-card-text-div {
+    width: 150% !important;
+    overflow: auto !important;
+  }
+}

@@ -1,0 +1,236 @@
+.select-language-span-tag {
+  display: flex;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+
+.select-language {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 14px !important;
+  width: 10%;
+}
+
+.searchbar-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: .2%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2%;
+}
+
+.welcome-title {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.practice-searchbar {
+  border-radius: 4px !important;
+}
+
+.practice-select-grid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5%;
+  padding-left: .2%;
+  padding-right: .2%;
+}
+
+.codeeditor-hr {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid gray;
+}
+
+.practice-select-second-grid {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  padding-top: 1.5%;
+}
+
+.practice-second-card {
+  padding-left: 2% !important;
+}
+
+.chosenProgrammingText {
+  font-size: 14px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: .2%;
+  width: 100%;
+}
+
+.practice-progressbar-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.practice-card-text-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.solvequestiondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pro-question {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.solvequetion-child-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solve-question-button {
+  background-color: darkslategray;
+  padding: 10px;
+  border-radius: 5px;
+  /* width: %; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+}
+
+.score-count {
+  color: darkslategray;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.practice-card-div {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  overflow: auto !important;
+}
+
+.practice-codeeditor-card-div {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  overflow: auto !important;
+}
+
+.practice-card-child-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-tag {
+  font-size: 14px !important;
+}
+
+.question-level {
+  font-weight: bold;
+  color: darkslategray;
+}
+
+.practice-searchbar-textfield {
+  padding: 7% !important;
+}
+
+.practice-filter-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.question-data-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  width: fit-content;
+  padding-bottom: 28px !important;
+}
+
+.select-language {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 14px !important;
+  width: 10%;
+}
+
+.run-button {
+  background-color: teal !important;
+  border-radius: 5px !important;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: fit-content !important;
+  cursor: pointer;
+}
+
+.question-data {
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.practice-codeeditor-searchbar {
+  border: 1px solid black !important;
+  border-bottom-color: none !important;
+  border-bottom-width: none !important;
+  border-radius: 5px !important;
+}
+
+.MuiInput-underline:before  {
+  border-bottom: none !important;
+}
+
+.MuiInput-underline::after  {
+  border-bottom: none !important;
+}
+
+.practice-codeeditor-searchbar {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 10px !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .select-language {
+    width: unset !important;
+  }
+
+  .practice-searchbar-textfield {
+    padding: 18px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .practice-second-card {
+    padding-left: 0 !important;
+    padding-top: 2% !important;
+  }
+}
+
+
+/*border-bottom: 1px solid black !important;*/

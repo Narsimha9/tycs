@@ -1,0 +1,118 @@
+.layout-logo {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 16px;
+}
+
+.layout-divider {
+    position: relative;
+    top: 40px;
+}
+
+.db-layout-logo {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    top: 20px;
+    left: 16px;
+}
+
+.db-layout-divider {
+    position: relative;
+    top: 35px;
+}
+
+.active-sidebar-button {
+    background-color: #0f3333 !important;
+}
+
+.layout-list {
+    padding-top: 50px !important;
+}
+
+.layout-logo-grid-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.db-layout-logo-grid-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: en;
+}
+
+.layout-webview-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout-wv-button-grid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.layout-wv-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.layout-wv-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.layout-wv-logout {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.webview-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.layout-wv-button {
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.db-layout-wv-button {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.layout-wv-trynowbutton {
+    font-size: 15px;
+    color: white;
+    background-color: #00adffbd;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.layout-bgPic {
+    background-image: url("../../assets/images/bgPic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+  }

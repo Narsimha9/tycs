@@ -1,0 +1,97 @@
+.login-mainDiv {
+    background-image: url("../../../assets/images/bgPic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginCard {
+    height: fit-content;
+    width: 30% !important;
+    padding: 20px;
+  }
+  
+  .login-logo-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .login-textfields-div {
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .login-textfield {
+    width: 100% !important;
+    margin-top: 4% !important;
+  }
+  
+  [class*="MuiOutlinedInput-input"] {
+    height: 0px !important;
+    width: 100% !important;
+    display: flex !important;
+    font-size: 14px !important;
+  }
+  
+  [class*="MuiInputLabel-outlined"] {
+    height: 10px !important;
+    font-size: 13px !important;
+    position: relative !important;
+    bottom: 0px !important;
+  }
+  
+  .login-button {
+    background-color: #0f3333 !important;
+    width: 100% !important;
+    color: white !important;
+    font-size: 12px !important;
+    text-transform: capitalize !important;
+    border-radius: 5px !important;
+  }
+  
+  .donthaveac {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .login-card-footer-text {
+    font-size: 12px !important;
+    color: gray;
+  }
+  
+  .login-card-footer-link {
+    font-size: 13px !important;
+    color: blue !important;
+    cursor: pointer;
+  }
+
+  .errorMsg {
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .login-textfields-form-div {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .loginCard {
+      width: 80% !important;
+    }
+  }
+  
